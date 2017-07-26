@@ -2,31 +2,52 @@
 <html>
 <head>
 	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href= "/Users/jeremyjohnson/desktop/smufs/Basic-Portfolio/assets/css/style.css" />
 </head>
 <body>
 	<header>
-		<h1> Jeremy JJ Johnson</h1>
-		<h4>About Portfolio Contact</h4>
+	 
+	 <section class="name">		
+		<h1> Jeremy "JJ" Johnson</h1>
+	 </section>	
+	 <section class="links">
+		<a href="index.html">&nbsp;About</a>
+		&nbsp;&nbsp;&#124;&nbsp;
+		<a href="portfolio.html">Portfolio</a>
+		&nbsp;&nbsp;&#124;&nbsp;
+	 	<a href="contact.html">Contact</a>
+	 </section>
 	</header>
-	<div class="container2">
-		<section>
-			<h2>Contact</h2>
+	
+	<div class="container">
+	 
+	  <div class="maincontent">
+		<h2>Contact</h2>
+		 <form>
+    		 <label for="name">Name</label>
+    		 <input type="text" id="name" name="name" placeholder="John Smith">
 
-			<ul>
-				<li>Name</li>
-				<li>Email</li>
-				<li>Message</li>
-			</ul>
-		</section>
+    		<label for="email">Email</label>
+    		<input type="text" id="email" name="email" placeholder="example@gmail.com">
 
-		<section>
-	 		<h3>Connect with Me</h3>
-	 		<a href="https://stackoverflow.com/users/8146404/theactualjj?tab=profile">theactualjj</a>
-	 		<a href="https://www.linkedin.com/in/jeremyjjjohnson/">theactualjj</a>
-	 		<a href="https://github.com/theactualjj">theactualjj</a>
-	 	</section>
+    		<label for="subject">Subject</label>
+    		<textarea id="message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+    		<input type="submit" value="Submit">
+  		 </form>
 	 </div>
 
-	<footer>Copyright 2017 Jeremy Johnson</footer>
+		<div class="connect">
+	 	 <section id="connectstyle">
+	 	  <h3>Connect with Me</h3>
+	 	 </section>
+	 		<a href="https://github.com/theactualjj"><img class="iconlink" src="./assets/images/if_github.png"></a>
+	 		<a href="https://www.linkedin.com/in/jeremyjjjohnson/"><img class="iconlink" src="./assets/images/if_square-linkedin.png"></a>
+	 		<a href="https://stackoverflow.com/users/8146404/theactualjj?tab=profile"><img class="iconlink" src="./assets/images/if_stackoverflow-square.png"></a>
+	 	</div>
+
+	 </div>
+
+	<footer class="footer">&#169; Copyright 2017 Jeremy JJ Johnson</footer>
 </body>
 </html>

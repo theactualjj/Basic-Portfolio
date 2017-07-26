@@ -2,31 +2,57 @@
 <html>
 <head>
 	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href= "/Users/jeremyjohnson/desktop/smufs/Basic-Portfolio/assets/css/style.css" />
 </head>
 <body>
 	<header>
-	 <h1>Jeremy "JJ" Johnson</h1>
-	 <h4>About Portfolio Contact</h4>
+	 <section class="name">		
+		<h1> Jeremy "JJ" Johnson</h1>
+	 </section>	
+	 <section class="links">
+		<a href="index.html">&nbsp;About</a>
+		&nbsp;&nbsp;&#124;&nbsp;
+		<a href="portfolio.html">Portfolio</a>
+		&nbsp;&nbsp;&#124;&nbsp;
+	 	<a href="contact.html">Contact</a>
+	 </section>
 	</header>
 
-	<div>
-		<section>
-			<h2>Portfolio</h2>
-			<ul>
-				<li>Hangman</li>
-				<li>RPG Game</li>
-				<li>Trivia Game</li>
-				<li>Rutgers Info Widget</li>
-				<li>Rock Paper Scissors</li>
-			</ul>
+	<div class="container">
+	 
+	  <div class="maincontent">
+
+		<section id="bar_room">
+			<img src="./assets/images/bar_room.jpg" height="250px" width="250px">
+		</section>
+		<section id="seafoodtower">
+			<img src="./assets/images/seafoodtower.jpg" height="250px" width="250px">
+		</section>
+		<section id="productivity">
+			<img src="./assets/images/productivity.png" height="250px" width="250px">
+		</section>
+		<section id="crossfitTD">
+			<img src="./assets/images/crossfitTD.jpg" height="250px" width="250px">
+		</section>
+		<section id="Creative-Thinking">
+			<img src="./assets/images/Creative-Thinking.png" height="250px" width="250px">
 		</section>
 
-		<section>
-	 	<h3>Connect with Me</h3>
-	 	<a href="https://stackoverflow.com/users/8146404/theactualjj?tab=profile">theactualjj</a>
-	 	<a href="https://www.linkedin.com/in/jeremyjjjohnson/">theactualjj</a>
-	 	<a href="https://github.com/theactualjj">theactualjj</a>
-	 </section>
-	</div>
+	  </div>
+	<!--bar_room.jpg train_coming.jpg seafoodtower.jpg crossfitTD.jpg  productivity.png productivity2.png  Creative-Thinking.png Creative-Thinking.png2   scalingup.jpeg   scalingup2.jpeg -->
+	  
+
+		<div class="connect">
+		 <section id="connectstyle">
+	 	 <h3>Connect with Me</h3>
+	 	 </section>
+	 		<a href="https://github.com/theactualjj"><img class="iconlink" src="./assets/images/if_github.png"></a>
+	 		<a href="https://www.linkedin.com/in/jeremyjjjohnson/"><img class="iconlink" src="./assets/images/if_square-linkedin.png"></a>
+	 		<a href="https://stackoverflow.com/users/8146404/theactualjj?tab=profile"><img class="iconlink" src="./assets/images/if_stackoverflow-square.png"></a>
+	 	</div>
+
+	 </div>
+
+  <footer class="footer">&#169; Copyright 2017 Jeremy JJ Johnson</footer>
 </body>
 </html>
