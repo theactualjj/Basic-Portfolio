@@ -1,5 +1,5 @@
 body {
-    	background-image: url("/Users/jeremyjohnson/desktop/smufs/Basic-Portfolio/assets/images/beachandsun.jpg");
+    	background-image: url('../images/beachandsun.jpg');
     	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
