@@ -15,7 +15,7 @@ header {
 h2, h3 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	border-bottom: 2px solid #cccccc;
+	border-bottom: 2px solid #4aaaa5;
 	padding-bottom: 20px;	
 }
 
@@ -120,13 +120,14 @@ input[type=submit]:hover {
 		margin: 10px 20px 10px 10px;
 }		
 
+a:hover {
+    background color: white;
+}
+
 #bar_room, #seafoodtower, #productivity, #crossfitTD, #Creative-Thinking {
 	float: left;
 	margin-right: 30px;
 	margin-bottom: 20px;
-}
-
-#bar_room, #seafoodtower, #productivity, #crossfitTD, #Creative-Thinking {
 	position: relative;
 }
 
@@ -140,8 +141,6 @@ input[type=submit]:hover {
     top: 70%;
     width: 250px;
     text-align: center;
-    display: inline-block;
-    vertical-align: middle;
     font-size: 18px;
 	color: white;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
