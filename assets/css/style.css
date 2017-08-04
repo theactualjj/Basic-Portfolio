@@ -41,13 +41,13 @@ h2, h3 {
 	float: right;
 }
 
-.container {
+/*.container {
 		width: 100%;
 		height: 100%;
 		clear: both;
 		border-top: 2px solid #cccccc;
 }
-
+*/
 .maincontent  {
 		width: 40%;
 		background-color: #c3cfbd;
@@ -61,7 +61,7 @@ h2, h3 {
 		width: 20%;
 		background-color: #c3cfbd;
 		margin: 40px 45px 40px 90px;
-		padding: 35px 35px 45px 35px;
+		padding: 30px 30px 40px 30px;
 		border: 1px solid #cccccc;
 		float: left;		
 
@@ -117,7 +117,7 @@ input[type=submit]:hover {
 		width: 60px;
 		height: 60px;
 		position: center;
-		margin: 10px 20px 10px 10px;
+		margin: 10px 10px 10px 10px;
 }		
 
 a:hover {
@@ -158,3 +158,57 @@ footer {
 	clear: both;
 	border-top: 5px solid #4aaaa5;
 }
+
+@media screen and (max-width: 980px) {
+  
+ /* .container {
+   
+    width: 60%;
+    padding: 20px;
+  }.  */
+
+  .maincontent {
+    width: 60%;
+  }
+
+  .connect {
+    margin-top: 40px;
+  }
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  
+ /* .container {
+    width: 100%;
+    padding: 20px;
+  }. */
+
+  .maincontent {
+    width: 100%;
+  }
+
+  .connect {
+    margin-top: 40px;
+  }
+}
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+  
+  /*.container {
+    width: 100%;
+    padding: 20px;
+  } */
+
+  .maincontent {
+    width: 100%;
+  }
+
+  .connect {
+    margin-top: 40px;
+  }
+}
+
